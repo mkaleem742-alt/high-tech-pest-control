@@ -36,7 +36,7 @@ collections:
           - "Comparison"
           - "Home Care"
         default: "Pest Control Tips"
-      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", time_format: false }
+      - { label: "Publish Date", name: "date", widget: "datetime", time_format: false }
       - { label: "Header Image", name: "thumbnail", widget: "image", required: false }
       - { label: "SEO Description", name: "description", widget: "text", required: false }
       - { label: "SEO Keywords", name: "keywords", widget: "string", required: false }
