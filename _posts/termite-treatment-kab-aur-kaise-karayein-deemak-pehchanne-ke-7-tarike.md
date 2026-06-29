@@ -1,12 +1,7 @@
 ---
-layout: post.njk
-permalink: /blog/termite-treatment-kab-aur-kaise-karayein-deemak-pehchanne-ke-7-tarike/index.html
-title: "Termite Treatment Kab Aur Kaise Karayein? Deemak Pehchanne Ke 7 Tarike"
-category: "Termite Guide"
-date: 2026-06-29
 title: Termite Treatment Kab Aur Kaise Karayein? Deemak Pehchanne Ke 7 Tarike
 category: Termite Guide
-date: 2026-06-29
+date: 29-06-2026
 thumbnail: ""
 description: Ghar mein deemak hai? Jaanein termite treatment kab aur kaise
   karayein, deemak pehchanne ke 7 aasaan tarike. Lucknow mein deemak ka ilaj —
@@ -14,7 +9,7 @@ description: Ghar mein deemak hai? Jaanein termite treatment kab aur kaise
 keywords: termite treatment kab karayein, deemak ki pehchan, deemak ka ilaj
   lucknow, termite treatment in lucknow, deemak se bachao, anti termite
   treatment, deemak ke lakshan
-readtime: 4
+readtime: 6
 ---
 Deemak (termite) ek aisi samasya hai jo chupchaap aapke ghar ki lakdi, furniture aur structure ko andar se khokhla kar deti hai. Jab tak nuqsan dikhta hai, tab tak lakhon ka damage ho chuka hota hai. Isliye sahi samay par \*\*termite treatment\*\* karana bahut zaroori hai.
 
