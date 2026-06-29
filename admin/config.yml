@@ -1,41 +1,29 @@
-# ============================================================
-#  DECAP CMS CONFIG — High Tech Pest Control
-# ============================================================
-#  Yeh file CMS ko batati hai ki blog kaise manage karna hai
-# ============================================================
-
 backend:
-  name: git-gateway
-  branch: main          # <-- Agar aapki branch ka naam "master" hai toh isko "master" kar dein
+  name: github
+  repo: mkaleem742-alt/high-tech-pest-control
+  branch: main
 
-# Image upload kahan save hongi
-media_folder: "images/uploads"     # GitHub repo mein yahan save hongi
-public_folder: "/images/uploads"   # website par yeh path use hoga
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
-# Hindi/local-friendly editor
 locale: 'en'
 
-# Site ka naam jo CMS mein dikhega
 site_url: https://hightechpestcontrol.co.in
 display_url: https://hightechpestcontrol.co.in
-logo_url: https://hightechpestcontrol.co.in/og-image.jpg
 
 collections:
-  # ── BLOG POSTS ──
   - name: "blog"
     label: "Blog Posts"
     label_singular: "Blog Post"
-    folder: "_posts"           # markdown files yahan save hongi
-    create: true               # naye post bana sakte hain
-    slug: "{{slug}}"           # URL title se banega
-    preview_path: "blog/{{slug}}"
+    folder: "_posts"
+    create: true
+    slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
     sort:
       - field: date
         direction: descending
     fields:
-      - { label: "Post Title (Heading)", name: "title", widget: "string", hint: "Keyword ke saath likhein, jaise: Deemak Se Bachne Ke 5 Tarike" }
-
+      - { label: "Post Title (Heading)", name: "title", widget: "string", hint: "Keyword ke saath likhein" }
       - label: "Category"
         name: "category"
         widget: "select"
@@ -48,15 +36,9 @@ collections:
           - "Comparison"
           - "Home Care"
         default: "Pest Control Tips"
-
       - { label: "Publish Date", name: "date", widget: "datetime", date_format: "DD-MM-YYYY", time_format: false }
-
-      - { label: "Header Image", name: "thumbnail", widget: "image", required: false, hint: "Post ke upar dikhne wali photo (optional)" }
-
-      - { label: "SEO Description", name: "description", widget: "text", required: false, hint: "Google par dikhne wali 1-2 line. Khaali chhod sakte hain.", pattern: ['.{0,160}', "160 characters se kam rakhein"] }
-
-      - { label: "SEO Keywords", name: "keywords", widget: "string", required: false, hint: "Comma se alag, jaise: deemak ka ilaj, termite treatment lucknow" }
-
+      - { label: "Header Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "SEO Description", name: "description", widget: "text", required: false }
+      - { label: "SEO Keywords", name: "keywords", widget: "string", required: false }
       - { label: "Read Time (minutes)", name: "readtime", widget: "number", default: 4, required: false }
-
-      - { label: "Post Content", name: "body", widget: "markdown", hint: "Yahan apna pura article likhein" }
+      - { label: "Post Content", name: "body", widget: "markdown" }
