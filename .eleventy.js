@@ -1,9 +1,6 @@
 module.exports = function(eleventyConfig) {
 
-  // Website ki saari files hightechpest-website folder se copy karo
   eleventyConfig.addPassthroughCopy({ "hightechpest-website": "/" });
-
-  // Admin aur images bhi copy karo
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("images");
 
