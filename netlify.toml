@@ -1,0 +1,23 @@
+# ============================================================
+#  NETLIFY CONFIG — High Tech Pest Control
+# ============================================================
+
+[build]
+  # Build command jo blog markdown ko HTML banata hai
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirect: /admin se Decap CMS khulega
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
+
+# Identity (login) ke liye
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
