@@ -1,4 +1,9 @@
 ---
+layout: post.njk
+permalink: /blog/termite-treatment-kab-aur-kaise-karayein-deemak-pehchanne-ke-7-tarike/index.html
+title: "Termite Treatment Kab Aur Kaise Karayein? Deemak Pehchanne Ke 7 Tarike"
+category: "Termite Guide"
+date: 2026-06-29
 title: Termite Treatment Kab Aur Kaise Karayein? Deemak Pehchanne Ke 7 Tarike
 category: Termite Guide
 date: 2026-06-29
