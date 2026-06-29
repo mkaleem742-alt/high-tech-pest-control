@@ -1,0 +1,12 @@
+{
+  "name": "hightechpestcontrol",
+  "version": "1.0.0",
+  "description": "High Tech Pest Control Lucknow - Website with Decap CMS",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
