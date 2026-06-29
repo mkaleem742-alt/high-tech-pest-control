@@ -1,0 +1,16 @@
+# robots.txt — High Tech Pest Control
+# https://hightechpestcontrol.co.in/
+
+User-agent: *
+Allow: /
+Disallow: /privacy-policy.html
+
+Sitemap: https://hightechpestcontrol.co.in/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
