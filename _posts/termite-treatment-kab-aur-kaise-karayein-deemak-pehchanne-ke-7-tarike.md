@@ -1,7 +1,7 @@
 ---
 title: Termite Treatment Kab Aur Kaise Karayein? Deemak Pehchanne Ke 7 Tarike
 category: Termite Guide
-date: 29-06-2026
+date: 2026-06-29
 thumbnail: ""
 description: Ghar mein deemak hai? Jaanein termite treatment kab aur kaise
   karayein, deemak pehchanne ke 7 aasaan tarike. Lucknow mein deemak ka ilaj —
